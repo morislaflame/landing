@@ -1,6 +1,5 @@
 'use client';
 import { TextEffect } from '@/components/ui/text-effect';
-import { motion } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
 
 interface RotatingTextProps {

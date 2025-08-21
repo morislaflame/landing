@@ -139,7 +139,7 @@ export function GlowEffect({
           backfaceVisibility: 'hidden',
         } as React.CSSProperties
       }
-      animate={animations[mode] as any}
+      animate={animations[mode] as any} // eslint-disable-line @typescript-eslint/no-explicit-any
       className={cn(
         'pointer-events-none absolute inset-0 h-full w-full',
         'scale-[var(--scale)] transform-gpu',

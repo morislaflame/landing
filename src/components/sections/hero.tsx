@@ -4,7 +4,6 @@ import { Container } from '@/components/shared/container';
 import { motion } from 'motion/react';
 import { useState, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
-import { GlowEffect } from '../ui/glow-effect';
 
 const texts = [
   "Вы ещё не готовы",

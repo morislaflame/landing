@@ -11,7 +11,6 @@ interface TelegramAuthButtonProps {
 
 export function TelegramAuthButton({ 
   onAuth, 
-  className, 
   disabled = false,
   isLoading = false 
 }: TelegramAuthButtonProps) {
